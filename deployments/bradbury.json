@@ -1,0 +1,48 @@
+{
+  "schema": "thesisscore/deployment-record/v1",
+  "contract": "ThesisScore",
+  "network": "Bradbury",
+  "chain_id": 4221,
+  "rpc_host": "rpc-bradbury.genlayer.com",
+  "status": "FINALIZED",
+  "verified_at_utc": "2026-08-12T21:09:00Z",
+  "deployer_address": "0xf6977164ae9efe2c4eed79b1d9bbd38e2e6b4331",
+  "contract_address": "0x694467f2BD659A0cd50Ca45Af1B47100790098f4",
+  "source_sha256": "642C4672AA8E8A29674C50BE03822131B0CF03517EB3C05FB86332DE52DF7046",
+  "source_bytes": 33934,
+  "deployed_source_sha256": "642C4672AA8E8A29674C50BE03822131B0CF03517EB3C05FB86332DE52DF7046",
+  "deployed_source_matches_local": true,
+  "policy_version": 1,
+  "deployment": {
+    "transaction_hash": "0xd1080e0282627b95bcc4e5e623e5f5e54b6d83088aad562e1b80df7062e66754",
+    "finality": "FINALIZED",
+    "consensus": "AGREE",
+    "execution": "FINISHED_WITH_RETURN"
+  },
+  "smoke": {
+    "status": "PASSED",
+    "registration": {
+      "transaction_hash": "0x6312ac5974dd6fd43f510d392b095e1407e844658cf65c607a6f8fc23e7f8dbd",
+      "finality": "FINALIZED",
+      "consensus": "AGREE",
+      "execution": "FINISHED_WITH_RETURN"
+    },
+    "audit": {
+      "transaction_hash": "0xe436cb8c3d359259f69f48cc7c6fc9f0f97751ccee2394b28da825e16b61353d",
+      "finality": "FINALIZED",
+      "consensus": "AGREE",
+      "execution": "FINISHED_WITH_RETURN"
+    },
+    "id": "0xf6977164ae9efe2c4eed79b1d9bbd38e2e6b4331:BRADBURY-MACRO-THESIS-20260812",
+    "fingerprint": "sha256:8ca41e1768b7db00437522f94f3fe175df96d2ec634ec94a43000101e8e3ccf3",
+    "status_result": "SCORED",
+    "score_bps": 7500,
+    "satisfied_mask": 5,
+    "failed_mask": 2,
+    "indeterminate_mask": 0,
+    "issue_mask": 0,
+    "exact_gate": true,
+    "altered_gate": false,
+    "read_variant": "LATEST_FINAL"
+  }
+}

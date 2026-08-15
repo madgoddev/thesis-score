@@ -1,0 +1,2 @@
+"""AuctionSettlementJudge deterministic test fixtures."""
+

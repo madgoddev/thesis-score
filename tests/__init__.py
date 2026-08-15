@@ -1,0 +1,2 @@
+"""AuctionSettlementJudge tests."""
+

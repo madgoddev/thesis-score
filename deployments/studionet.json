@@ -1,0 +1,48 @@
+{
+  "schema": "thesisscore/deployment-record/v1",
+  "contract": "ThesisScore",
+  "network": "StudioNet",
+  "chain_id": 61999,
+  "rpc_host": "studio.genlayer.com",
+  "status": "FINALIZED",
+  "verified_at_utc": "2026-08-12T19:15:49Z",
+  "deployer_address": "0xf6977164ae9efe2c4eed79b1d9bbd38e2e6b4331",
+  "contract_address": "0xD0Ad6e6d0B18A950eE211F79e1C8dc99C2766d03",
+  "source_sha256": "642C4672AA8E8A29674C50BE03822131B0CF03517EB3C05FB86332DE52DF7046",
+  "source_bytes": 33934,
+  "deployed_source_sha256": "642C4672AA8E8A29674C50BE03822131B0CF03517EB3C05FB86332DE52DF7046",
+  "deployed_source_matches_local": true,
+  "policy_version": 1,
+  "deployment": {
+    "transaction_hash": "0xcc4289acf4aa6dd3c0bec6181016463491018bf5e8fbff09cce33382f865ac62",
+    "finality": "FINALIZED",
+    "consensus": "AGREE",
+    "execution": "FINISHED_WITH_RETURN"
+  },
+  "smoke": {
+    "status": "PASSED",
+    "registration": {
+      "transaction_hash": "0xa77356eaadd6200b54bb5710e7295d910ba1ad1bdb35dcbafc626b93e0f19d7e",
+      "finality": "FINALIZED",
+      "consensus": "AGREE",
+      "execution": "FINISHED_WITH_RETURN"
+    },
+    "audit": {
+      "transaction_hash": "0xfe275ebb62006de27b784f6e1ab2fdc4f5f7101656c810876a68db0122a37051",
+      "finality": "FINALIZED",
+      "consensus": "AGREE",
+      "execution": "FINISHED_WITH_RETURN"
+    },
+    "id": "0xf6977164ae9efe2c4eed79b1d9bbd38e2e6b4331:STUDIO-MACRO-THESIS-20260812",
+    "fingerprint": "sha256:e626b6ad97ca8072c39777ca052754d8f92c89d3808a84ccb7c7e8de2a4b8ee5",
+    "status_result": "SCORED",
+    "score_bps": 7500,
+    "satisfied_mask": 5,
+    "failed_mask": 2,
+    "indeterminate_mask": 0,
+    "issue_mask": 0,
+    "exact_gate": true,
+    "altered_gate": false,
+    "read_variant": "LATEST_FINAL"
+  }
+}

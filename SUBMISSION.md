@@ -1,0 +1,3 @@
+# Submission copy
+
+ThesisScore is a reusable MIT-licensed GenLayer Intelligent Contract for scoring an immutable, weighted multi-clause prediction thesis after its deadline. Validators return only a clause partition and closed issue codes; the contract enforces completeness and derives masks and the weighted score. Complete-score consumers pin an independent fingerprint and exact score. It is not a market or investment recommendation. Local lint/typecheck, 53 direct tests, and four five-validator GLSim scenarios pass. StudioNet and Bradbury deployments and deadline-bound smoke tests are finalized with exact source readback; both produced 7,500 bps, masks 5/2/0/0, exact gate true and altered gate false.
